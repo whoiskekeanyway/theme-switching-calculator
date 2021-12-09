@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<main>
+
+
+  <div class="calculator">
+
+    <div class="intro">
+
+      <div class="intro-name">
+        <p>calc</p>
+      </div>
+
+      <div class="intro-theme">
+
+        <p onclick="toggleTheme()">Switch Theme</p>
+
+        <input id="switch" class="switch" onclick="toggleTheme()">
+
+      </div>
+
+    </div>
+
+
+    <input class="textview" name="textview">
+
+
+
+
+    <div class="calculator-grid">
+
+      <input class="button" type="button" value="7" onclick="insert(7)">
+      <input class="button" type="button" value="8" onclick="insert(8)">
+      <input class="button" type="button" value="9" onclick="insert(9)">
+      <input class="button delete-button" type="button" value="DEL" onclick="toDelete()">
+
+      <input class="button" type="button" value="4" onclick="insert(4)">
+      <input class="button" type="button" value="5" onclick="insert(5)">
+      <input class="button" type="button" value="6" onclick="insert(6)">
+      <input class="button" type="button" value="+" onclick="insert('+')">
+
+      <input class="button" type="button" value="1" onclick="insert(1)">
+      <input class="button" type="button" value="2" onclick="insert(2)">
+      <input class="button" type="button" value="3" onclick="insert(3)">
+      <input class="button" type="button" value="-" onclick="insert('-')">
+
+      <input class="button" type="button" value="." onclick="insert('.')">
+      <input class="button" type="button" value="0" onclick="insert(0)">
+      <input class="button" type="button" value="/" onclick="insert('/')">
+      <input class="button" type="button" value="x" onclick="insert('*')">
+
+      <input class="span-two reset-button" type="button" value="RESET" onclick="clean('=')">
+      <input class="span-two equal-button" type="button" value="=" onclick="equal('=')">
+
+
+    </div>
+
+  </div>
+
+  <body>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ogundele Olalekan</a>.
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+
+</html>
