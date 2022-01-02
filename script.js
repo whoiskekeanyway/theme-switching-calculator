@@ -14,7 +14,6 @@ function clean() {
   textview.value = "";
 }
 
-console.log(textview);
 
 function toDelete() {
   textview.value = textview.value.slice(0, -1);
@@ -25,7 +24,7 @@ function setTheme(themeName) {
   localStorage.setItem("theme", themeName);
   document.documentElement.className = themeName;
 }
-// function to toggle between light and dark theme
+// function to toggle between themes
 function toggleTheme() {
   const radioBtn = document.querySelector(".switch");
   if (localStorage.getItem("theme") === "theme-dark") {
@@ -46,3 +45,5 @@ function toggleTheme() {
     setTheme("theme-light");
   }
 })();
+
+
