@@ -22,7 +22,6 @@ Users should be able to:
 - See the size of the elements adjust based on their device's screen size
 - Perform mathmatical operations like addition, subtraction, multiplication, and division
 - Adjust the color theme based on their preference
-- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
 
 ### Screenshot
 
@@ -30,7 +29,11 @@ Users should be able to:
 
 ### Links
 
+<<<<<<< HEAD
 - Solution URL: [https://github.com/whoiskekeanyway/theme-switching-calculator](https://github.com/whoiskekeanyway/theme-switching-calculator)
+=======
+- Solution URL: [Github](https://github.com/whoiskekeanyway/theme-switching-calculator)
+>>>>>>> ed802643cf877e9ebc2dc98f93ca79caf012aef0
 - Live Site URL: [theme-switching-calculator.netlify.app](theme-switching-calculator.netlify.app)
 
 ## My process
@@ -85,3 +88,4 @@ if statement to toggle between three different theme based on the user's prefere
 - Website - [scriptsandtags.com](https://scriptsandtags.com)
 - Frontend Mentor - [@whoiskekeanyway](https://www.frontendmentor.io/profile/whoiskekeanyway)
 - Twitter - [@scriptsandtags](https://www.twitter.com/whoiskekeanyway)
+
