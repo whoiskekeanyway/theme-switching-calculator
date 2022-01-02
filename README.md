@@ -87,8 +87,5 @@ if statement to toggle between three different theme based on the user's prefere
 
 - Website - [scriptsandtags.com](https://scriptsandtags.com)
 - Frontend Mentor - [@whoiskekeanyway](https://www.frontendmentor.io/profile/whoiskekeanyway)
-<<<<<<< HEAD
 - Twitter - [@scriptsandtags](https://www.twitter.com/whoiskekeanyway)
-=======
-- Twitter - [@scriptsandtags](https://www.twitter.com/scriptsandtags)
->>>>>>> ed802643cf877e9ebc2dc98f93ca79caf012aef0
+
